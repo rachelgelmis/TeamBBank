@@ -1,0 +1,12 @@
+spring:
+    jpa:
+        hibernate:
+            ddl-auto: update
+        properties:
+            hibernate:
+                dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+    datasource:
+        url: jdbc:mysql://${MYSQL_HOST:localhost}:3306/bank_database
+        username: root
+        password: Xelarrab97!
+        driver-class-name: com.mysql.cj.jdbc.Driver
